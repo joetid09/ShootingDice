@@ -9,7 +9,8 @@ namespace ShootingDice
 
         public virtual int Roll()
         {
-            // Return a random number between 1 and DiceSize
+            // Return a random number between 1 and DiceSize (defaulted to 6)
+
             return new Random().Next(DiceSize) + 1;
         }
 
